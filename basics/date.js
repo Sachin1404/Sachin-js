@@ -1,0 +1,8 @@
+let newdate=new Date()
+// console.log(newdate.toDateString())
+// console.log(newdate.toLocaleDateString())
+let mydate=new Date(2024,2,18,16,52)
+console.log(mydate.toLocaleString())
+let timestamp=Date.now()
+console.log(timestamp)
+console.log(mydate.getTime())
